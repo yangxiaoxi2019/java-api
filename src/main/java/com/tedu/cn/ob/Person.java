@@ -55,6 +55,11 @@ public class Person {
         this.weight = weight;
     }
 
+    /**
+     * equals重写方法，比较的是两个对象的内容
+     * @param obj
+     * @return
+     */
     @Override
     public boolean equals(Object obj) {
         if (obj instanceof Person) {
